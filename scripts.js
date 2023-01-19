@@ -153,9 +153,8 @@ const determinarGanador = (jugadoresPuntos) => {
       { points: 0, id: "Computadora" }
     );
 
-  console.log("🚀 ~ setTimeout ~ playerWinner", JugadorGanador);
 
-  alert(`${JugadorGanador.id} gana!`);
+  alert(`HA GANADO EL ${JugadorGanador.id}!`);
 }, 400);
 };
 
